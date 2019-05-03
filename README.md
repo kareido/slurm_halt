@@ -13,7 +13,7 @@ sh MultiTAR.sh -h
 #        [-h][-n, --ntasks[=]<total num of tasks>, maximum num of tasks]
 #        [-h][-p, --partition=<srun partition>, specify slurm partition]
 #        [-h][-X, --indiscriminate, suppress safely kill functionality]
-#        [-h][-w, --target-nodes[=]<num cpus per task>, specify victim(s)]
+#        [-h][-w, --target-nodes[=]<hostname of targets>, specify victim(s)]
 
 sh MultiTAR.sh --partition Test --indiscriminate
 ...

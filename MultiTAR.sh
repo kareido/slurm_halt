@@ -45,7 +45,7 @@ while getopts "$OPTSPEC" optchar; do
             echo "       [-h][-n, --ntasks[=]<total num of tasks>, maximum num of tasks]" >&2
             echo "       [-h][-p, --partition=<srun partition>, specify slurm partition]" >&2
             echo "       [-h][-X, --indiscriminate, suppress safely kill functionality]" >&2
-            echo "       [-h][-w, --target-nodes[=]<num cpus per task>, specify victim(s)]" >&2
+            echo "       [-h][-w, --target-nodes[=]<hostname of targets>, specify victim(s)]" >&2
             echo
             exit 2
             ;;
